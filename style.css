@@ -1,0 +1,386 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+ body{
+    background-image:  url(images/blue_bg.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    flex-wrap: nowrap;
+    background-position-y: top;
+
+    /* background-image:  url(images/Group\ 1131.png);
+    height: 3400px;
+    background-position-y: bottom; */
+
+} 
+
+.body2 {
+
+    background-image:  url(images/Group\ 1131.png);
+    height: 3400px;
+    background-position-y: bottom;
+
+    
+
+}
+
+/* start nav bar */
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-bottom: 0;
+    width: auto;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left a{
+    display: flex;
+    margin: 40px;
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+a::before{
+    content: "" ;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 0;
+    transition: 0.3s;
+    background-color:violet;
+    bottom: -7px;
+
+}
+
+ a:hover::before{
+    width: 100%;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right img{
+    position: relative;
+}
+
+.nav-right p{
+    position: absolute;
+    color:rgb(0, 0, 0);
+    z-index: 1;
+    
+}
+
+/* end nav bar */
+/* start section1 */
+
+
+section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+
+section1 .div-left{
+    font: 20px sans-serif;
+    color: rgb(83, 83, 83);
+    margin-bottom: 150px;
+
+
+    
+
+}
+
+section1 .div-left h1{
+    font: 50px sans-serif;
+
+}
+
+section1 .div-left h1 u{
+    text-decoration: none;
+    color: rgb(161, 60, 148);
+}
+
+section1 .div-left p{
+    font: 25px sans-serif;
+}
+
+section1 .div-right{
+    width: auto;
+    display: flex;
+
+}
+
+section1 .div-right-img1{
+    position: relative;
+}
+
+section1 .div-right-img2{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+section1 .div-right-img3{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 200px;
+    
+}
+
+section1 .div-right-img4{
+    position: absolute;
+    margin-top: 650px;
+    margin-right: 1300px;
+
+}
+
+/* end section 1 */
+/* start section 2 */
+
+
+.task2{
+    width:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.task2-img1{
+    width: 100%;
+    position: relative;
+}
+
+.task2 .div2{
+    position: absolute;
+    margin-right: 1200px;
+    margin-top: 100px;
+    text-align: center;
+    font: 20px sans-serif;
+
+}
+
+.div2-h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.task2 .div3{
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 270px;
+    text-align: center;
+    font: 20px sans-serif;
+
+}
+
+.div3-h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.task2 .div4{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 640px;
+    text-align: center;
+    font: 20px sans-serif;
+
+}
+
+.div4-h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.task2 .div5{
+    position: absolute;
+    margin-right: 1000px;
+    margin-top: 640px;
+}
+ 
+.task2 .div5-h1{
+    
+    font: 55px sans-serif;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 120px;
+    color: whitesmoke;
+
+}
+
+.task2 .div5 p{
+    font: 20px sans-serif;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 120px;
+    color: whitesmoke;
+
+} 
+
+.task2 .div6{
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 1150px;
+    text-align: center;
+    font: 20px sans-serif;
+
+}
+
+.div6 h1{
+    font-size: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+
+}
+
+ .task2 .fa-solid{
+    position: absolute;
+    margin-top: 1550px;
+    margin-right: 600px;
+    padding-left: 100px;
+    color: grey;
+
+} 
+
+.task2 #right-icon{
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 1200px;
+    padding-right: 200px;
+    color: grey;
+
+}
+
+.task2 .div7{
+    position: absolute;
+    margin-right:1060px;
+    margin-top: 1320px;
+}
+
+.task2 .div8{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 1320px;    
+}
+/* end section 2 */
+/* start footer */
+
+footer{
+    background-image: url(images/Group\ 1131.png);
+    width: auto;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    margin-top: 1000px ;
+    position: relative;
+}
+
+footer .div1{
+    position: relative;
+    height: 750px;
+    display: flex;
+    width: auto;
+}
+
+footer .div2{
+    position: absolute;
+    display: flex;
+    width: auto;
+    margin-left: 700px;
+    margin-top: 108px;
+}
+
+footer .div3{
+    background-color:white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 500px;
+    margin-bottom: 200px;
+}
+
+footer .div3 p{
+    padding-left: 10px;
+    font: 1em sans-serif ;
+    color: black;
+}
+
+footer .div4{
+    background-color:white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 500px;
+    margin-bottom: 200px;
+}
+
+footer .div4 p{
+    padding-left: 10px;
+    font: 1em sans-serif ;
+    color: black;
+}
+
+footer .div5{
+    position: absolute;
+    display: flex;
+    color: black;
+    margin-top:570px;
+    margin-left: 100px;
+
+}
+
+footer .div5 img{
+    padding: 10px;
+}
+
+footer .div6{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 620px;
+    margin-left: 60px;
+
+}
+
+footer .div6 p{
+    font: 1em sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+
+}
+
+
+/* end footer */
